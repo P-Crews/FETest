@@ -1,0 +1,193 @@
+﻿*{
+    box-sizing:  border-box;
+}
+body{
+    font-size:          12px;
+    font-family:        sans-serif;
+    margin:             0;
+}
+div{
+    float:              left;
+    position:           relative;
+    padding-left:       15px;
+    padding-right:      15px;
+}
+.container{
+    width:              100%;
+    display:            table;
+    padding:            0;
+    margin:             0;
+}
+.nav-bar{
+    background:         #e16857;
+    height:             50px;
+    width:              100%;
+    display:            inline-flex;
+    margin:             0;
+    padding:            0;
+}
+.nav-bar ul{
+    display:            inline-flex;
+}
+.nav-logo{
+    width:              11vw;
+    padding:            0;
+}
+.nav-logo img{
+    padding:            0;
+    margin:             0;
+    position:           relative;
+    height:             100%;
+    width:              auto;
+}
+.nav-links{
+    text-align:         right;
+    width:              84%;
+}
+.nav-links ul{
+    list-style:         none;
+    margin:             5px;
+}
+.nav-links ul li{
+    margin:             15px;
+    color:              white;
+    font-size:          15px;
+    font-weight:        600;
+    text-transform:     uppercase;
+}
+.menu{
+    width:              8%;
+    padding:            15px;
+}
+.hamburger{
+    border-top:         3px solid white;
+    font-size:          10px;
+    float:              none;
+    width:              20px;
+    height:             10px;
+    padding:            0px;
+    margin:             0 auto;
+    
+}
+.side-menu{
+    border-right:       2px solid white;
+    min-height:         100px;
+    width:              25%;
+}
+.menu-tab{
+    width:              100%;
+    float:              none;
+}
+.collapsed{
+    display:            none;
+}
+.search{
+    width:              100%;
+    height:             auto;
+    padding:            10px;
+    margin-top:         10px;
+    border:             1px solid lightgrey;
+    border-radius:      4px;
+}
+.menu-tab{
+    float:              none;
+    margin-bottom:      20px;
+}
+.menu-tab div{
+    float:              none;
+}
+.tab{
+    float:              none;
+    border-color:       #dedede;
+    border-radius:      4px;
+    box-shadow:         0 1px 1px rgba(0,0,0,0.3);
+    padding:            0;
+    background:         lightgray;
+    padding:            1px;
+}
+.tab-title{
+    float:              none;
+    color:              #e16857;
+    padding:            0;
+    background:         lightgrey;
+    text-align:         center;
+    border-radius:      4px;
+}
+.menu-body{
+    float:              none;
+    padding:            10px;
+    background:         white;
+    margin-left:        5px;
+    margin-right:       5px;
+    margin-bottom:      5px;
+}
+.driver-info{
+    width:              100%;
+    display:            inline-flex;
+    padding:            0;
+    
+}
+.driver-image{
+    width:              20%;
+    padding:            0;
+}
+.driver-image img{
+    width:              100%;
+    height:             100%;
+}
+.details{
+    padding:            0;
+}
+.driver-details{
+    width:              40%;
+    text-align:         left;
+}
+.availability{
+    width:              40%;
+    text-align:         right;
+}
+.job-info{
+    display:            inline-flex;
+    padding:            0;
+    width:              100%;
+}
+.job-details{
+    width:              50%;
+    padding:            0;
+    text-align:         left;
+}
+.job-id{
+    color:              black;
+    text-transform:     capitalize;
+}
+.job-loc{
+    color:              #e16857;
+    text-transform:     capitalize;
+}
+.job-con{
+    color:              limegreen;
+    font-weight:        600;
+    text-transform:     capitalize;
+}
+.job-due{
+    color:              red;
+    font-weight:        600;
+}
+.job-status{
+    width:              50%;
+    padding:            0;
+    text-align:         right;
+    color:              red;
+    font-weight:        bold;
+    background:         url('/img/clock.png');
+    background-size:    20px;
+    background-position: bottom right;
+    background-repeat:   no-repeat;
+}
+.main-content{
+    width:              75%;
+    padding:            0;
+}
+.main-content img{
+    width:          100%;
+}
